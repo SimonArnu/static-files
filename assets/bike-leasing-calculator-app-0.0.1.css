@@ -1,0 +1,248 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffffde;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body {
+  margin: 0;
+  padding: 30px;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    -45deg,
+    #eee 7%,
+    transparent 7%,
+    transparent 50%,
+    #eee 50%,
+    #eee 57%,
+    transparent 57%,
+    #fff
+  );
+  background-size: 12px 12px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+#root {
+  width: 85%;
+  max-width: 1280px;
+  margin: 20px auto;
+  max-height: 500px;
+  overflow: auto;
+  background-color: #fff;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #fff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}
+.App-module__reset__TASN7 {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+.App-module__reset__TASN7 * {
+  box-sizing: border-box;
+}
+.App-module__reset__TASN7 a {
+  color: inherit;
+}
+.App-module__reset__TASN7 button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font: inherit;
+  padding: 0;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.App-module__reset__TASN7 h1,
+.App-module__reset__TASN7 h2,
+.App-module__reset__TASN7 h3,
+.App-module__reset__TASN7 h4,
+.App-module__reset__TASN7 h5,
+.App-module__reset__TASN7 h6 {
+  margin: 0;
+}
+.App-module__reset__TASN7 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  font: inherit;
+  min-width: 0;
+  padding: 0;
+}
+.App-module__reset__TASN7 input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.App-module__reset__TASN7 p {
+  margin: 0;
+}
+@font-face {
+  font-family: Calmetta;
+  src: url(/assets/Calmetta_W_Rg-bike-leasing-calculator-app-0.0.1.woff2);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: CalmettaBold;
+  src: url(/assets/Calmetta_W_Bd-bike-leasing-calculator-app-0.0.1.woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+:root {
+  --jr-lc-font-default: Calmetta;
+}
+:root {
+  --jr-lc-palette-corp-green: #b0e572;
+  --jr-lc-palette-corp-black: #2b373d;
+  --jr-lc-palette-corp-pink: #ffbcdf;
+  --jr-lc-palette-corp-white: white;
+  --jr-lc-palette-corp-black-a50: #2b373d80;
+  --jr-lc-palette-corp-black-a15: #2b373d26;
+  --jr-lc-palette-corp-black-a8: #2b373d14;
+  --jr-lc-palette-corp-white-a8: #ffffff14;
+  --jr-lc-palette-corp-yellow: #fffa65;
+  --jr-lc-palette-corp-shade-a90: #404b50;
+  --jr-lc-palette-corp-shade-a80: #555f64;
+  --jr-lc-palette-corp-shade-a70: #6b7478;
+  --jr-lc-palette-corp-shade-a60: #80878b;
+  --jr-lc-palette-corp-shade-a50: #959b9e;
+  --jr-lc-palette-corp-shade-a40: #aaafb1;
+  --jr-lc-palette-corp-shade-a30: #bfc3c5;
+  --jr-lc-palette-corp-shade-a20: #d5d7d8;
+  --jr-lc-palette-corp-shade-a10: #eaebec;
+  --jr-lc-palette-corp-shade-a5: #f4f5f5;
+  --jr-lc-palette-corp-shade-green60: #d0efaa;
+  --jr-lc-palette-corp-shade-green20: #effae3;
+  --jr-lc-palette-corp-red: #dc001c;
+  --jr-lc-palette-corp-red-30: #fa765c;
+  --jr-lc-palette-corp-blue: #00aaff;
+}
+:root {
+  --jr-lc-color-on-surface: var(--jr-lc-palette-corp-black);
+}
+:root {
+  --jr-lc-shape-border-radius-s: 4px;
+  --jr-lc-shape-border-radius-m: 8px;
+  --jr-lc-shape-border-radius-l: 16px;
+  --jr-lc-shape-border-radius-xl: 80px;
+}
+:root {
+  --jr-lc-spacing-xs: 4px;
+  --jr-lc-spacing-s: 8px;
+  --jr-lc-spacing-m: 12px;
+  --jr-lc-spacing-l: 16px;
+  --jr-lc-spacing-xl: 32px;
+  --jr-lc-spacing-xxl: 48px;
+  --jr-lc-spacing-xxxl: 60px;
+  --jr-lc-spacing-xxxxl: 80px;
+}
+.App-module__app__d3kQ4 {
+  container-name: app;
+  container-type: inline-size;
+  color: var(--jr-lc-color-on-surface);
+  font-family: var(--jr-lc-font-default), sans-serif;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.App-module__layoutContainer__tDHFg {
+  display: flex;
+  flex-direction: column;
+  gap: var(--jr-lc-spacing-xl);
+}
+@container app (width >= 768px) {
+  .App-module__layoutContainer__tDHFg {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.Container-module__container__JMoiT {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  min-height: 40px;
+  border-radius: var(--jr-lc-shape-border-radius-s);
+  overflow: hidden;
+}
+@container app (width >= 768px) {
+  .Container-module__container__JMoiT.Container-module__partialWidth__y4anM {
+    flex: 0 0 60%;
+  }
+  .Container-module__container__JMoiT.Container-module__breakOutSticky__nS15w {
+    position: sticky;
+    top: 0;
+    flex: 1 0;
+    align-self: start;
+    margin-left: auto;
+    min-height: 200px;
+  }
+}
+.Content-module__content__HfnNX {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  background-color: transparent;
+  padding: var(--jr-lc-spacing-s) var(--jr-lc-spacing-l);
+}
+.Content-module__content__HfnNX.Content-module__withoutPadding__p37QC {
+  padding: 0;
+}
+.Content-module__content__HfnNX.Content-module__gray__nmjwS {
+  background-color: var(--jr-lc-palette-corp-shade-a10);
+}
+.Content-module__content__HfnNX.Content-module__green__GSgi1 {
+  background-color: var(--jr-lc-palette-corp-green);
+}
+.Content-module__content__HfnNX.Content-module__greenLight__XSMeG {
+  background-color: var(--jr-lc-palette-corp-shade-green60);
+}
+.Content-module__content__HfnNX.Content-module__greenLightest__ARMi3 {
+  background-color: var(--jr-lc-palette-corp-shade-green20);
+}
+.CalculatorForm-module__calculatorForm__L90k- {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+.AmountRow-module__amountRow__Tm3CD {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%;
+  width: 100%;
+}
+.AmountRow-module__amountRow__Tm3CD .AmountRow-module__label__QgYOv {
+  flex: 1 1 50%;
+}
+.AmountRow-module__amountRow__Tm3CD .AmountRow-module__amount__iLF57 {
+  flex: 1 1 50%;
+  text-align: right;
+}
